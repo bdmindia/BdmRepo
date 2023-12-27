@@ -46,6 +46,6 @@ jobs:
           subscriptionId: b4b11c34-7f53-4715-ad3e-9129f34cc874
           template: ./arm-templates/storageaccount.json
           parameters: ./arm-templates/storageaccount.parameters.json
-          deploymentName: incremental
+          deploymentMode: incremental
             
             
